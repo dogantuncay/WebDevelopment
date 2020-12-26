@@ -1,0 +1,36 @@
+body{
+  background-color: #f1faee;
+}
+.navbar-dark .navbar-brand {
+  color : red !important;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.populer-baslik {
+  background-color: red;
+  color: white;
+}
+.ekonomi{
+  border-left: 7px red solid;
+  padding: 0.8rem;
+  font-size:1.2rem;
+}
+/*light dark modu buton css değerleri*/
+.geceModu{
+  padding-left: 130px;
+  display: flex;
+  align-items: center;
+}
+.btn-boyut{
+  width: 8rem;
+  height: 2.35rem;
+  border-radius: 5px;
+
+}
+.card {
+  border-radius: 0.5rem;
+}
+.card-img-top{
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}

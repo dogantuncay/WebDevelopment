@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Resim Galeri</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.js" charset="utf-8"></script>
+</head>
+<body class="bg-light">
+  <section id="header">
+    <div class="container-fluid">
+      <nav  class="navbar navbar-expand-lg navbar-light">
+        <a id="color" class="navbar-brand" href="#">Galeri</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a id="color1" class="nav-link" href="#">Ana sayfa <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a id="color2" class="nav-link" href="#">Bize Ulaşın</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a id="color3" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Kategoriler
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Kategori 1</a>
+                <a class="dropdown-item" href="#">Kategori 2</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Alt Kategori</a>
+              </div>
+            </li>
+            <li class="geceModu"> <button class="btn-boyut" onclick="renkDegistirme()" type="button" name="button">Dark Mode</button> </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Arama" aria-label="Arama">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Arama</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <section id="resimler">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="http://webdevexamples.herokuapp.com/imagegallery/resimler/1.jpg" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="http://webdevexamples.herokuapp.com/imagegallery/resimler/2.jpg" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="http://webdevexamples.herokuapp.com/imagegallery/resimler/3.jpg" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="http://webdevexamples.herokuapp.com/imagegallery/resimler/4.jpg" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="http://webdevexamples.herokuapp.com/imagegallery/resimler/5.jpg" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="http://webdevexamples.herokuapp.com/imagegallery/resimler/6.jpg" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="http://webdevexamples.herokuapp.com/imagegallery/resimler/7.jpg" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="http://webdevexamples.herokuapp.com/imagegallery/resimler/8.jpg" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="http://webdevexamples.herokuapp.com/imagegallery/resimler/1.jpg" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="http://webdevexamples.herokuapp.com/imagegallery/resimler/2.jpg" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="http://webdevexamples.herokuapp.com/imagegallery/resimler/3.jpg" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="http://webdevexamples.herokuapp.com/imagegallery/resimler/4.jpg" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="http://webdevexamples.herokuapp.com/imagegallery/resimler/5.jpg" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="http://webdevexamples.herokuapp.com/imagegallery/resimler/6.jpg" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="http://webdevexamples.herokuapp.com/imagegallery/resimler/7.jpg" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="http://webdevexamples.herokuapp.com/imagegallery/resimler/8.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="footer" class="footer">
+    <div class="container-fluid">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled">
+            <a id="prev" class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+          </li>
+          <li class="page-item"><a id="prev1" class="page-link" href="#">1</a></li>
+          <li class="page-item"><a id="prev2" class="page-link" href="#">2</a></li>
+          <li  class="page-item"><a id="prev3" class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a id="prev4" class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+      <hr>
+    </div>
+  </section>
+
+  <script type="text/javascript">
+
+  function renkDegistirme(){
+    var bodyElemeti = document.querySelector("body");
+    var buttonElementi =document.querySelector(".btn-boyut");
+    var footerElementi= document.querySelector("#footer");
+    var colorElementi =document.querySelector("#color");
+    var colorElementi1 =document.querySelector("#color1");
+    var colorElementi2 =document.querySelector("#color2");
+    var colorElementi3 =document.querySelector("#color3");
+    var prevElementi = document.querySelector("#prev");
+    var prevElementi1 = document.querySelector("#prev1");
+    var prevElementi2 = document.querySelector("#prev2");
+    var prevElementi3 = document.querySelector("#prev3");
+    var prevElementi4 = document.querySelector("#prev4");
+
+
+    bodyElemeti.classList.toggle("bg-dark");
+    bodyElemeti.classList.toggle("text-light");
+    buttonElementi.classList.toggle("btn-dark");
+
+
+
+    if(bodyElemeti.classList.contains("bg-dark")){
+        buttonElementi.innerText="Light Mode";
+        footerElementi.setAttribute("style", "background-color:#343a40 !important;")
+
+        colorElementi.setAttribute("style", "color:#fff;")
+        colorElementi1.setAttribute("style", "color:#fff;")
+        colorElementi2.setAttribute("style", "color:#fff;")
+        colorElementi3.setAttribute("style", "color:#fff;")
+
+        prevElementi.setAttribute("style", "color:#fff; background-color:#343a40;")
+        prevElementi1.setAttribute("style", "background-color:#343a40 !important;")
+        prevElementi2.setAttribute("style", "background-color:#343a40 !important;")
+        prevElementi3.setAttribute("style", "background-color:#343a40 !important;")
+        prevElementi4.setAttribute("style", "background-color:#343a40 !important;")
+
+
+      }else{
+        buttonElementi.innerText="Dark Mode";
+        colorElementi.setAttribute("style", "color:#black !important;")
+        colorElementi1.setAttribute("style", "color:#black !important;")
+        colorElementi2.setAttribute("style", "color:#black !important;")
+        colorElementi3.setAttribute("style", "color:#black !important;")
+
+
+        footerElementi.setAttribute("style", "background-color:#fff !important;")
+
+        prevElementi.setAttribute("style",  "background-color:#fff;!important;")
+        prevElementi1.setAttribute("style", "background-color:#fff; !important;")
+        prevElementi2.setAttribute("style", "background-color:#fff; !important;")
+        prevElementi3.setAttribute("style", "background-color:#fff; !important;")
+        prevElementi4.setAttribute("style", "background-color:#fff; !important;")
+
+      }
+
+
+
+    // document.querySelector("li button").
+                // veya
+    // document.querySelector(".btn-boyut").
+    // veya
+  // document.querySelector("#idsiyle"). elementi bulabiliriz
+  // veya
+  // document.querySelector("button.btn-boyut"). elementi bulabiliriz
+
+  }
+
+  </script>
+
+
+</body>
+</html>

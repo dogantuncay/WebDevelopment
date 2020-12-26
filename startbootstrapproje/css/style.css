@@ -1,0 +1,530 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#ustkisim {
+  background-color: #204051;
+  font-family: 'Montserrat', sans-serif;
+  height: 110px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.startyazi {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  color: web-kit
+}
+
+.baslik a:hover {
+  color: white;
+}
+
+.menu ul {
+  margin-block-end: 0em;
+}
+
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.menu li:hover a {
+  color: #1abc9c;
+}
+
+/*orta css kodlarımızı burada topladık*/
+
+.ortakisim {
+  background-color: #03c4a1;
+  padding-top: 200px;
+  box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.boyut-img {
+  border-radius: 50%;
+  height: 240px;
+  width: 240px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.baslik-title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 20px;
+}
+
+.cizgistar {
+  margin-top: 1.25rem;
+  margin-right: 0px;
+  margin-bottom: 1.6rem;
+  margin-left: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cizgisol {
+  width: 110%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #ffffff;
+  border: 2rem;
+  border-radius: 10px;
+}
+
+.cizgisag {
+  width: 110%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #ffffff;
+  border: 2rem;
+  border-radius: 10px;
+}
+
+.star {
+  color: white;
+}
+
+.gawi {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 450;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 90px;
+  padding-top: 10px;
+}
+
+.cizgistar-iki {
+  margin-top: 1.25rem;
+  margin-right: 0px;
+  margin-bottom: 1.6rem;
+  margin-left: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cizgisoliki {
+  width: 110%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #204051;
+  border: 2rem;
+  border-radius: 10px;
+}
+
+.cizgisagiki {
+  width: 110%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #204051;
+  border: 2rem;
+  border-radius: 10px;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 3.2rem;
+  padding-top: 70px;
+}
+
+.galeri {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 60px;
+}
+
+.resim {
+  max-width: 25%;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+
+}
+
+.galeri img {
+  border-radius: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.renk {
+  background-color: #FAC9A4;
+  border: 1px solid #FAC9A4;
+}
+
+.renk2 {
+  background-color: #8E89FA;
+  border: 1px solid #8E89FA;
+}
+
+.renk3 {
+  border: 1px solid #212529;
+  background-color: #212529;
+}
+
+.renk4 {
+  border: 1px solid #BF4582;
+  background-color: #BF4582;
+}
+
+.renk5 {
+  border: 1px solid #9400FF;
+  background-color: #9400FF;
+}
+
+.renk6 {
+  border: 1px solid #b9f542;
+  background-color: #b9f542;
+}
+
+#altkisim {
+  background-color: #03c4a1;
+
+}
+
+.about {
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.cizgisoluc {
+  width: 110%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #ffffff;
+  border: 2rem;
+  border-radius: 10px;
+
+}
+
+.cizgisaguc {
+  width: 110%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #ffffff;
+  border: 2rem;
+  border-radius: 10px;
+}
+
+.staruc {
+  color: white;
+}
+
+.cizgistar-uc {
+  margin-top: 1.25rem;
+  margin-right: 0px;
+  margin-bottom: 1.6rem;
+  margin-left: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icerik-colon{
+  flex-wrap:
+
+}
+.icerik p{
+  color: white;
+  font-size: 1.25rem;
+  font-family: 'Lato', sans-serif;
+  line-height: 2rem;
+}
+.icerik-sol{
+  padding-left: 90px;
+}
+.icerik-sag{
+  padding-left: 10px;
+}
+.btn{
+  width: 230px;
+  height: 60px;
+  border: 2px solid white;
+}
+.buton-down{
+  padding-bottom: 80px;
+}
+.buton-down a{
+  padding-top: 12px;
+}
+/* contact me kısmı kodlarımız*/
+.cizgistar-dort {
+  margin-top: 1.25rem;
+  margin-right: 0px;
+  margin-bottom: 1.6rem;
+  margin-left: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cizgisoldort {
+  width: 110%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #204051;
+  border: 2rem;
+  border-radius: 10px;
+}
+
+.cizgisagdort {
+  width: 110%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #204051;
+  border: 2rem;
+  border-radius: 10px;
+}
+
+.contactme {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 3.2rem;
+  padding-top: 70px;
+}
+
+.form {
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control {
+  margin-top: 10px;
+  border: 0px;
+  border-radius: none;
+}
+
+.cerceve {
+  border: none;
+  border-radius: none;
+  width: 100%;
+}
+.btn-mesage{
+  width: 110px;
+  border-radius: 15px;
+  background-color:  #03c4a1;
+
+}
+
+/* footer kısmı kodlarımız*/
+#footer-alt {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+.col h6 {
+  font-weight: 700;
+  line-height: 1.2rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.col p {
+  font-size: 1.2rem;
+  padding-top: 25px;
+}
+
+.col p a:hover {
+  color: #03c4a1;
+  text-decoration: underline;
+}
+
+.icon a {
+  color: white;
+}
+
+.iconlar {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.face {
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.twit {
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.link {
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.ball {
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.iconlar a:hover {
+  background-color: white;
+}
+
+.linkyazi {
+  color: #03c4a1;
+  text-decoration: none;
+}
+
+#copyright {
+  background-color: #212529;
+}
+
+@media screen and (max-width:768px) {
+  .menu ul {
+    display: none;
+  }
+
+  .baslik a {
+    font-size: 1.2rem;
+  }
+
+  .baslik-title {
+    font-size: 2rem;
+  }
+
+  .cizgisol {
+    max-width: 4rem;
+  }
+
+  .cizgisag {
+    max-width: 4rem;
+  }
+
+  .gawi {
+    font-size: 1rem;
+  }
+
+  .boyut-img {
+    height: 160px;
+    width: 160px;
+  }
+
+  .portfolio {
+    font-size: 2rem;
+  }
+
+  .cizgisoliki {
+    max-width: 4rem;
+  }
+
+  .cizgisagiki {
+    max-width: 4rem;
+  }
+
+  .about {
+    font-size: 2rem;
+  }
+
+  .cizgisoluc {
+    max-width: 3.5rem;
+  }
+
+  .cizgisaguc {
+    max-width: 3.5rem;
+  }
+  .icerik{
+    text-align:center;
+  }
+  .icerik-sol{
+    padding-left: 0px;
+  }
+  .icerik-sag{
+    padding-left: 0px;
+  }
+
+  .cizgisoldort {
+    max-width: 3.8rem;
+  }
+
+  .cizgisagdort {
+    max-width: 3.8rem;
+  }
+
+  .contactme {
+    font-size: 2rem;
+  }
+
+  .form {
+    justify-content: start;
+    align-items: center;
+  }
+
+}

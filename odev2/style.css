@@ -1,0 +1,46 @@
+.arkaplan {
+  background-color: #fecea8;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 560px;
+  box-sizing: border-box;
+  display: block;
+}
+.ust-bolum {
+  text-align: center;
+  background-color: #e84a5f;
+  color: #ffffff;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 2.5rem;
+  border-radius: 30px 30px 0 0;
+}
+.alt-bolum {
+  background-color: #2a363b;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 0 0 30px 30px;
+}
+.photo-kutusu {
+  width: 540px;
+  display: block;
+}
+.photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 30px 30px 30px 30px;
+  margin: 10px;
+  background-color: #ddd;
+  float: left;
+  box-sizing: border-box;
+}
+.resimler{
+  width: 250px;
+  height: 250px;
+  border-radius: 30px;
+}

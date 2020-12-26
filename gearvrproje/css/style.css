@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body {
+  background-color: #160C6E;
+}
+
+@media screen and (min-width:900px) {
+  .buyukdaire {
+    background-color: #3F21D0;
+    height: 730px;
+    width: 730px;
+    border-radius: 50%;
+    margin-left: 180px;
+    position: fixed;
+    top: -30px;
+  }
+  .kucukdaire {
+    background: linear-gradient(321.25deg, #DF387C -33.39%, #FF602C 103.69%);
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    position: fixed;
+    top: 120px;
+    left: 450px;
+  }
+  .baloncuk1 {
+    width: 25px;
+    height: 25px;
+    border: 1px solid;
+    border-color: #ffffff;
+    position: absolute;
+    left: 380px;
+    top: 90px;
+  }
+  .baloncuk2 {
+    width: 10px;
+    height: 10px;
+    border: 1px solid;
+    border-color: #ffffff;
+    position: absolute;
+    left: 790px;
+    top: 95px;
+  }
+  .baloncuk3 {
+    width: 15px;
+    height: 15px;
+    border: 1px solid;
+    border-color: #ffffff;
+    position: absolute;
+    left:1000px;
+    top: 110px;
+  }
+  .baloncuk4 {
+    width: 15px;
+    height: 15px;
+    border: 1px solid;
+    border-color: #ffffff;
+    position: absolute;
+    left: 400px;
+    top: 280px;
+  }
+  .baloncuk5 {
+    width: 10px;
+    height: 10px;
+    border: 1px solid;
+    border-color: #ffffff;
+    position: absolute;
+    left: 735px;
+    top: 525px;
+  }
+  .baloncuk6 {
+    width: 35px;
+    height: 35px;
+    border: 1px solid;
+    border-color: #ffffff;
+    position: absolute;
+    left: 399px;
+    top: 580px;
+  }
+  .baloncuk7 {
+    width: 15px;
+    height: 15px;
+    border: 1px solid;
+    border-color: #ffffff;
+    position: absolute;
+    left: 800px;
+    top: 580px;
+  }
+  .baloncuk8 {
+    width: 15px;
+    height: 15px;
+    border: 1px solid;
+    border-color: #ffffff;
+    position: absolute;
+    left: 1050px;
+    top: 580px;
+  }
+  .vrresim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -40px;
+    margin-top: -10px;
+    overflow: visible;
+  }
+  .shop {
+    width: 50px;
+    height: 40px;
+    margin-left: 210px;
+    margin-top: -110px;
+  }
+  .aramaikon {
+    padding-right: 225px;
+    color: white;
+    margin-top: -30px;
+
+  }
+  .solmenu{
+    list-style-type: none;
+    margin-top: 110px;
+    line-height: 2rem;
+    width: 150px;
+    margin-left: 190px;
+  }
+  .solmenubaslik{
+    font-weight: 600px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  .solmenulink{
+    color: #adb5bd;
+    font-size: 11px;
+    font: weight: 600px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .sollinkrenk:hover{
+    color: blue;
+  }
+  .vrsagtaraf{
+    position: absolute;
+    margin-left: 750px;
+    margin-top: -210px;
+  }
+  .vrfont{
+    font-size:74px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900px;
+    font-weight: bold;
+  }
+  .sagtarafyazi{
+    float: right;
+    margin-top: -140px;
+    margin-right: 240px;
+    font-size: 13px;
+    overflow: hidden;
+    background-color: none;
+  }
+  .card{
+    background: none;
+    border: 0px;
+  }
+  .butonrenk{
+    background: linear-gradient(321.25deg, #DF387C -33.39%, #FF602C 103.69%);
+    border-radius: 40px;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    height: 40px;
+    padding-top: 11px;
+  }
+  .sosyalmedyaikon{
+  padding-top: 145px;
+  padding-left: 215px;
+  align-items: flex-end;
+  }
+}
